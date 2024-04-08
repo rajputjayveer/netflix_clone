@@ -46,7 +46,7 @@
      position: relative;
      z-index: 10;
  }
-
+   
  nav button {
      position: relative;
      z-index: 10;
@@ -64,6 +64,17 @@
      gap: 23px;
      padding: 0 30px;
  }
+ @media screen and (max-width: 433px){
+    nav img {
+        color: red;
+        width: 100px;
+        position: relative;
+        z-index: 10;
+       padding: 10px;
+    }
+
+    
+}
 
  .hero> :first-child {
      font-family: "poppins";
@@ -140,6 +151,31 @@
      border: 1px solid rgba(246, 238, 238, 0.5);
  }
 
+ @media screen and (max-width: 433px){
+    .btn-red {
+        background-color: red;
+        padding: 3px 24px;
+        color: white;
+        font-size: 6px;
+        border-radius: 4px;
+        font-weight: 400;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .main input {
+        padding: 7px 101px 8px 14px;
+        color: white;
+        font-size: 8px;
+        border-radius: 4px;
+        font-weight: 900;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgba(246, 238, 238, 0.5);
+    }
+
+ }
  .first {
      display: flex;
      justify-content: center;
